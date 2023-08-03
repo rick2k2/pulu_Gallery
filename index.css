@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    margin: 150px auto;
+    flex-direction: column;
+    gap:30px;
+    box-shadow: 20px 15px 40px #333;
+    border-radius: 10px;
+}
+
+input{
+    font-size: 18px;
+    padding: 11px 50px;
+    outline: none;
+}
+
+a{
+    padding: 12px 40px;
+    background: tomato;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.err_txt{
+    color: red;
+}
+
+.gallery_heading{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gallery_heading h2{
+   
+}
+.gallery_container{
+    margin: 10px auto;
+    width: 80%;
+    height: auto;
+    /* border: 1px solid navy; */
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 12px 30px #ccc;
+    margin-bottom: 50px;
+}
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: none;
+    box-shadow: 8px 10px 30px grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+.heart_zoom{
+    font-size: 6rem;
+    background: none;
+    border-radius: 50%;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+.heart_zoom:hover{
+    transform: scale(1.2);
+}
+.love_sign{
+    background: none;
+    overflow: hidden;
+    border: none;
+    border-radius: 50%;
+}
+/* ******* */
+.i1{
+    background: url('./img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+/* ******** */
+.i3{
+    background: url('./img/115.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+/* *********** */
+.i4{
+    background: url('./img/16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+/* *********** */
+.i6{
+    background: url('./img/11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+/* *********** */
+.i7{
+    background: url('./img/15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+/* *********** */
+.i9{
+    background: url('./img/17.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+/* *********** */
+.i10{
+    background: url('./img/10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+/* *********** */
+.i12{
+    background: url('./img/13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+/* *********** */
+.i13{
+    background: url('./img/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+/* *********** */
+.i15{
+    background: url('./img/5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+
+/* hover */
+.i1:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+.i3:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+.i4:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+.i6:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+.i7:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+.i9:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+.i10:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+.i12:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+.i13:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+.i15:hover{
+    transform: scale(1.4);
+    border: 6px solid #000;
+}
+/* i1 i3 i4 i6 i7 i9 i10 i12 i13 i15 */
+
+.l1{
+    box-shadow: 14px 20px 50px rgb(255, 13, 0);
+}
+.l2{
+    box-shadow: 14px 20px 50px rgb(0, 255, 76);
+}
+.l3{
+    box-shadow: 14px 20px 50px rgb(0, 115, 255);
+}
+.l4 {
+    box-shadow: 14px 20px 50px rgb(255, 234, 0);
+}
+.l5 {
+    box-shadow: 14px 20px 50px rgb(255, 0, 111);
+}
